@@ -5,9 +5,9 @@
 
 ---
 
-### Name: 
-### Student Id: 
-### Email: 
+### Name: Lho Jinwoong
+### Student Id: 20915548
+### Email: jlho@connect.ust.hk
 
 ---
 
