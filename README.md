@@ -55,9 +55,9 @@
 
     | Type                      | TCP b/w (Mbps) | RTT (ms) |
     | ------------------------- | -------------- | -------- |
-    | `t3.medium` - `t3.medium` |                |          |
-    | `m5.large` - `m5.large`   |                |          |
-    | `c5n.large` - `c5n.large` |                |          |
+    | `t3.medium` - `t3.medium` |      4010          |     0.314     |
+    | `m5.large` - `m5.large`   |      9940          |     0.299     |
+    | `c5n.large` - `c5n.large` |      19800         |    0.155      |
     | `t3.medium` - `c5n.large` |                |          |
     | `m5.large` - `c5n.large`  |                |          |
     | `m5.large` - `t3.medium`  |                |          |
