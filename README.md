@@ -32,6 +32,8 @@
     >     Same as CPU, single-thread performance in a consistent way across all instance types.
     > 
     >     Each operation performs 1 MiB blocks, not too small for cache performance to dominate, not too big for credit exhaustion.
+    >
+    >     Performing a total of 10 GiB of memory operations reveals real sustained memory subsystem performance.
     > 
     >     Memory result: throughput in MiB/sec
 
@@ -41,9 +43,9 @@
 
     | Size        | CPU performance | Memory performance |
     | ----------- | --------------- | ------------------ |
-    | `t2.micro` |         875.95        |          18702.28          |
-    | `t2.medium`  |                 |                    |
-    | `c5d.large` |                 |                    |
+    | `t2.micro` |         875.95        |          18,702.28          |
+    | `t2.medium`  |       882.36          |          18,888.97          |
+    | `c5d.large` |        451.01         |         19,716.84           |
 
     > Region: US East (N. Virginia). Use `Ubuntu Server 22.04 LTS (HVM)` as AMI.
 
